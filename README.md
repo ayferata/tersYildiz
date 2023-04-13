@@ -8,7 +8,7 @@ public class Main {
         System.out.print(" N sayısını giriniz : ");
         int n = input.nextInt();
         System.out.println(); // boşluk için
-        for (int i =(n-1);i >= 1; i--){               // kaç satır gezeceğimizi belirler. //
+        for (int i =(n-1);i >= 1; i--){         
 
             for (int j = 1;j <= (n-i); j++){          // satır başından ne kadar boşluk bırakılması gerektiğini belirler. //
                 System.out.print(" ");
