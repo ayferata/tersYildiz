@@ -7,6 +7,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.print(" N sayısını giriniz : ");
         int n = input.nextInt();
+        
         System.out.println(); // boşluk için
         for (int i =(n-1);i >= 1; i--){         
 
